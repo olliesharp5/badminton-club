@@ -87,4 +87,6 @@ The icons in the footer were taken from Font Awesome
 ### Media
 The photos used on the home and sign up page are from This Open Source site
 The images used for the gallery page were taken from this other open source site
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+
+FAVICON.io 
+
