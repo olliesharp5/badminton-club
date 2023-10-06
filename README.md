@@ -1,8 +1,6 @@
-# Badminton Club 
+# Shuttle Strikers
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience.
-
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club.
+Shuttle Strikers is a badminton club based in Manchester. The Shuttle Strikers website is designed to provide information to prospective and existing members. Shuttle Strikers offers the opportunity for all age groups and abilities to pick up and play badminton. The site will contain information about what the club can offer its patrons, on the landing page there will also be information about meeting days and times. A registration form will be included in the site fior people who are intersted in joining. The site will be transparent regarding enrollment fees so users have all the information they need to decide if Shuttle Strikers is right for them. 
 
 ## Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -10,18 +8,15 @@ In this section, you should go over the different parts of your project, and des
 ### Existing Features
 * Navigation Bar
 
-Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+The navigation bar is an essential feature that provides easy and intuitive access to different sections of the website. For the users, it helps them easily navigate through the website and find the information they are looking for without any confusion. The navigation bar in this project will have links to various pages such as home, about, news, events, contact, and sign up. It will ensure that users can quickly find the specific information they want about the badminton club, making their browsing experience efficient and user-friendly.
 
 * The landing page image
 
-The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-This section introduces the user to Love Running with an eye catching animation to grab their attention
+The landing page image serves as the focal point of the website and immediately grabs the attention of the users. It provides a visual representation of the badminton club, showing the facilities, atmosphere, or a captivating action shot, which can create an emotional connection with the users. The image helps the users gauge whether the club aligns with their interests and preferences. By showcasing the club's ambiance, it allows potential members to visualize themselves being a part of the club and promotes a desire to explore further.
 
 * Club Ethos Section
 
-The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
+The club ethos section is where the badminton club communicates its values, principles, and the overall atmosphere it creates for its members. This section is crucial for users who are interested in joining the club as it gives them insight into the club's culture and what they can expect. By highlighting the club's ethos, such as promoting sportsmanship, teamwork, and personal growth, the users can determine whether the club's values align with their own. This helps them make an informed decision about joining the club and ensures that the club attracts members who resonate with their values.
 
 * Meetup Times section
 
@@ -30,17 +25,11 @@ This section will be updated as these times change to keep the user up to date.
 
 * The Footer
 
-The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-The footer is valuable to the user as it encourages them to keep connected via social media
+The footer is a consistent feature that appears at the bottom of every webpage. It provides valuable information and links that users may need to access regardless of which page they are on. In this project, the footer can include important details such as contact information, social media links, privacy policy, and terms of service. The footer ensures that users can easily find essential information without navigating back to the main menu or searching through the entire website. It increases usability, saves users time, and improves their overall experience.
 
 * The Sign Up Page
 
-This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+The sign up page is critical for individuals who want to join the badminton club. It provides a streamlined and organized way for users to express their interest in becoming a member. By having a dedicated sign up page, users can input their personal information, specify their preferences or level of play, and indicate their availability. This helps the club in managing their membership database effectively and allows them to cater to the needs and interests of different individuals. The sign-up page is convenient for users, as they don't have to contact or communicate with the club separately, and it streamlines the membership process, facilitating a smooth onboarding experience.
 
 ### Features Left to Implement
 Another feature idea
