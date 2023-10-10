@@ -149,6 +149,10 @@ footer i {
     nav ul li:first-child {
         border-left: none;
     }
+
+    main {
+        margin-top: 105px;
+    }
 }
 
 
@@ -190,11 +194,24 @@ footer i {
     nav ul li:first-child {
         border-left: none;
     }
-}
-    /* Media query: laptops and larger (992px and up) */
-    @media screen and (min-width: 992px) {
-        #navbar a:hover {
-            border-bottom: 1px solid darkolivegreen;
-        }
+
+    main {
+        margin-top: 155px;
+    }
+
 }
 
+/* Media query: laptops and larger (992px and up) */
+@media screen and (min-width: 992px) {
+    #navbar a:hover {
+        border-bottom: 1px solid darkolivegreen;
+    }
+
+}
+
+/* Media query: laptops and larger (1140px and up) */
+@media screen and (min-width: 1140px) {
+    main {
+        margin-top: 95.59px;
+    }
+}
