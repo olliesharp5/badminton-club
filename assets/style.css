@@ -99,42 +99,43 @@ footer {
 
 /* Media query: smaller tablets and larger (804px and up) */
 @media screen and (min-width: 804px) {
+
     /* Header */
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-            padding-right: 1rem;
-        }
-    
-        #navbar {
-            display: flex;
-        }
-    
-        #navbar>li {
-            padding: 1rem;
-        }
-    
-        .nav-toggle-label {
-            display: none;
-        }
-    
-        #title {
-            font-size: 260%;
-            line-height: 50px;
-            margin: 0 0.5rem;
-        }
-    
-        nav ul li {
-            border-left: 1px solid darkolivegreen;
-            text-align: center;
-        }
-    
-        nav ul li:first-child {
-            border-left: none;
-        }
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
     }
+
+    #navbar {
+        display: flex;
+    }
+
+    #navbar>li {
+        padding: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #title {
+        font-size: 260%;
+        line-height: 50px;
+        margin: 0 0.5rem;
+    }
+
+    nav ul li {
+        border-left: 1px solid darkolivegreen;
+        text-align: center;
+    }
+
+    nav ul li:first-child {
+        border-left: none;
+    }
+}
 
 
 /* Media query: tablets and larger (848px and up) */
@@ -153,23 +154,32 @@ footer {
         display: flex;
     }
 
-    #navbar > li {
+    #navbar>li {
         padding: 1rem;
     }
 
     .nav-toggle-label {
         display: none;
     }
+
     #title {
         font-size: 300%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
     nav ul li {
         border-left: 1px solid darkolivegreen;
         text-align: center;
     }
+
     nav ul li:first-child {
         border-left: none;
     }
-}
+
+    /* Media query: laptops and larger (992px and up) */
+    @media screen and (min-width: 992px) {
+        #navbar a:hover {
+            border-bottom: 1px solid darkolivegreen;
+        }
+    }
