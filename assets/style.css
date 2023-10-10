@@ -176,10 +176,11 @@ footer {
     nav ul li:first-child {
         border-left: none;
     }
-
+}
     /* Media query: laptops and larger (992px and up) */
     @media screen and (min-width: 992px) {
         #navbar a:hover {
             border-bottom: 1px solid darkolivegreen;
         }
-    }
+}
+
