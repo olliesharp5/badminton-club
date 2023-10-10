@@ -21,6 +21,7 @@ header {
     position: fixed;
     width: 100%;
     box-shadow: 0 2px 2px;
+    top: 0;
 }
 
 header a {
@@ -51,6 +52,17 @@ h1 {
 
 #navbar a:hover {
     color: black;
+}
+
+/* navbar styles with dropdon toggle */
+nav {
+    position: absolute;
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px;
+    left: 0;
+    display: none;
 }
 
 main {
