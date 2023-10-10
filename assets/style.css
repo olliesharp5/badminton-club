@@ -35,18 +35,14 @@ header a {
 h1 {
     font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 #navbar {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
-}
-
-#navbar ul {
-    
 }
 
 #navbar  li {
@@ -90,4 +86,12 @@ main {
 
 footer {
     background-color: bisque;
+}
+
+
+/* Media query: compensating for single line h1 (378px and up) */
+@media screen and (min-width: 378px) {
+main {
+    margin-top: 44px;
+}
 }
