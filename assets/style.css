@@ -3,7 +3,7 @@
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 1px;
-    margin: 1px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
@@ -21,7 +21,10 @@ header {
     position: fixed;
     width: 100%;
     box-shadow: 0 2px 2px;
-    top: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -54,7 +57,7 @@ h1 {
     color: black;
 }
 
-/* navbar styles with dropdon toggle */
+/* navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: antiquewhite;
@@ -63,11 +66,26 @@ nav {
     box-shadow: 0 2px 2px;
     left: 0;
     display: none;
+    top: 100%
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 main {
     background-color: aqua;
     flex: 1 0 auto;
+    margin-top: 85px;
 }
 
 footer {
