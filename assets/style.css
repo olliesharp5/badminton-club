@@ -114,7 +114,7 @@ footer {
     }
 
     #navbar > li {
-        padding-left: 1rem;
+        padding: 1rem;
     }
 
     .nav-toggle-label {
@@ -124,5 +124,12 @@ footer {
         font-size: 300%;
         line-height: 75px;
         margin: 0 0.5rem;
+    }
+    nav ul li {
+        border-left: 1px solid darkolivegreen;
+        text-align: center;
+    }
+    nav ul li:first-child {
+        border-left: none;
     }
 }
