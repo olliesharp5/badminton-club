@@ -20,6 +20,7 @@ header {
     padding: 0 1rem;
     position: fixed;
     width: 100%;
+    box-shadow: 0 2px 2px;
 }
 
 header a {
@@ -38,17 +39,14 @@ h1 {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
-    display: flex;
 }
 
 #navbar ul {
-    list-style-type: none;
-
+    
 }
 
 #navbar  li {
-    display: inline-block;
-    margin-right: 10px;
+   margin-bottom: 1em;
 }
 
 #navbar a:hover {
