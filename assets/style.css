@@ -180,6 +180,33 @@ main {
 
 /* Sign-up form styles */
 
+#signup {
+    background-color: darkolivegreen;
+    color: antiquewhite;
+}
+
+#signup-form {
+    padding: 30px;
+}
+
+.submit, .clear, .field {
+    border: 2px solid antiquewhite;
+    border-radius: 20px;
+    color: antiquewhite;
+    background-color: darkolivegreen;
+    padding: 5px;
+    font-size: 130%;
+    margin: 5px;
+}
+
+.property {
+    font-size: 130%;
+}
+
+input::placeholder {
+    color: antiquewhite;
+}
+
 /* Footer Styles */
 footer {
     background-color: bisque;
