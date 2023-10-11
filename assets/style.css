@@ -85,6 +85,7 @@ main {
     flex: 1 0 auto;
     margin-top: 85px;
 }
+
 /* Hero image section styles */
 #hero {
     position: relative;
@@ -108,7 +109,7 @@ main {
     background-color: rgba(85, 107, 47, 0.5);
 }
 
-#hero-text > h2 {
+#hero-text>h2 {
     text-transform: capitalize;
 }
 
@@ -123,6 +124,18 @@ main {
     border-radius: 8px;
     padding: 10px;
     border: 2px solid darkolivegreen;
+    margin: 10px 0;
+}
+
+/* What we offer section */
+
+#offer {
+    background-color: antiquewhite;
+    border-radius: 8px;
+    padding: 10px;
+    border: 2px solid darkolivegreen;
+    margin: 10px 0;
+    padding: 10px 10px 10px 20px;
 }
 
 /* Footer Styles */
