@@ -185,6 +185,11 @@ main {
     color: antiquewhite;
 }
 
+#form-space, #form-head {
+    text-align: center;
+    width: 100%;
+}
+
 #signup-form {
     padding: 30px;
 }
