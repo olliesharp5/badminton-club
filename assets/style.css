@@ -117,25 +117,41 @@ main {
     margin-top: 5%;
 }
 
+/* Container for about-offer */
+
+#about-offer {
+    display: block;
+}
+
 /* About Us section styles */
 
-#about {
+#about-div {
     background-color: antiquewhite;
     border-radius: 8px;
     padding: 10px;
     border: 2px solid darkolivegreen;
-    margin: 10px 0;
+    margin: 10px 2px;
+    font-size: 150%;
+    flex-basis: 100%;
 }
 
 /* What we offer section */
 
-#offer {
+#offer-div {
     background-color: antiquewhite;
     border-radius: 8px;
     padding: 10px;
     border: 2px solid darkolivegreen;
-    margin: 10px 0;
-    padding: 10px 10px 10px 20px;
+    margin: 10px 2px;
+    padding: 10px;
+    font-size: 150%;
+    flex-basis: 100%;
+}
+
+#offer-list {
+    padding: 10px 10px 10px 30px;
+    /* Using shuttlecock icon for bulleted list */
+    list-style-image: url('../assets/images/shuttlecock-icon.png');
 }
 
 /* Footer Styles */
@@ -256,6 +272,16 @@ footer i {
 
     main {
         margin-top: 155px;
+    }
+
+    #about-offer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #about-div,
+    #offer-div {
+        flex-basis: 50%;
     }
 
 }
