@@ -93,6 +93,27 @@ main {
     background-position: center;
 }
 
+#hero-text {
+    position: absolute;
+    bottom: 30px;
+    width: 85%;
+    min-height: 200px;
+    padding: 10px 5px 25px 5px;
+    border-radius: 8px;
+    font-size: 190%;
+    font-family: 'Rubik', sans-serif;
+    color: antiquewhite;
+    background-color: rgba(85, 107, 47, 0.5);
+}
+
+#hero-text > h2 {
+    text-transform: capitalize;
+}
+
+#hero-text h3 {
+    margin-top: 5%;
+}
+
 footer {
     background-color: bisque;
 }
@@ -161,8 +182,13 @@ footer i {
     main {
         margin-top: 105px;
     }
-}
 
+    #hero-text {
+        width: 300px;
+        right: 50px;
+    }
+
+}
 
 /* Media query: tablets and larger (848px and up) */
 @media screen and (min-width: 848px) {
