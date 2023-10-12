@@ -212,6 +212,29 @@ input::placeholder {
     color: antiquewhite;
 }
 
+/* Contact/map section styles */
+#contact-map-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact, #map {
+    flex-basis: 160px;
+    flex-grow: 1;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 2px;
+}
+
+#contact {
+    background-color: antiquewhite;
+    border: 2px solid darkolivegreen;
+}
+
+
+
 /* Footer Styles */
 footer {
     background-color: bisque;
