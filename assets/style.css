@@ -190,6 +190,10 @@ main {
     width: 100%;
 }
 
+#form-head {
+    font-size: 150%;
+}
+
 #signup-form {
     padding: 30px;
 }
@@ -232,8 +236,6 @@ input::placeholder {
     background-color: antiquewhite;
     border: 2px solid darkolivegreen;
 }
-
-
 
 /* Footer Styles */
 footer {
