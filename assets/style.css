@@ -198,7 +198,7 @@ main {
     border: 2px solid antiquewhite;
     border-radius: 20px;
     color: antiquewhite;
-    background-color: darkolivegreen;
+    background-color: rgba(85, 107, 47, 0.1);
     padding: 5px;
     font-size: 130%;
     margin: 5px;
