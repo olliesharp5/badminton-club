@@ -22,6 +22,35 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+/* General Classes*/
+
+/* Class for styling containers */
+.containers {
+    background-color: antiquewhite;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px 2px;
+    padding: 10px;
+    font-size: 150%;
+    text-align: center;
+}
+
+/* Class for reverse colour containers */
+.containers-rev {
+    background-color: #435426;
+    color: antiquewhite;
+    margin: 20px 2px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.shuttle-list {
+    padding: 10px 10px 10px 30px;
+    /* Using shuttlecock icon for bulleted list */
+    list-style-image: url('../images/shuttlecock-icon.png');
+    text-align: center;
+}
+
 /* Heading styles */
 header {
     background-color: antiquewhite;
@@ -97,7 +126,7 @@ nav {
     background-position: center;
 }
 
-#hero-text {
+.hero-text-box {
     position: absolute;
     bottom: 30px;
     width: 85%;
@@ -110,11 +139,11 @@ nav {
     background-color: rgba(85, 107, 47, 0.5);
 }
 
-#hero-text>h2 {
+.hero-text-box > h2 {
     text-transform: capitalize;
 }
 
-#hero-text h3 {
+.hero-text-box h3 {
     margin-top: 5%;
 }
 
@@ -122,36 +151,6 @@ nav {
 
 #about-offer {
     display: block;
-}
-
-/* About Us section styles */
-
-#about-div {
-    background-color: antiquewhite;
-    border-radius: 8px;
-    padding: 10px;
-    margin: 10px 2px;
-    font-size: 150%;
-    text-align: center;
-}
-
-/* What we offer section */
-
-#offer-div, #important-info{
-    background-color: antiquewhite;
-    border-radius: 8px;
-    padding: 10px;
-    margin: 10px 2px;
-    padding: 10px;
-    font-size: 150%;
-    text-align: center;
-}
-
-#offer-list {
-    padding: 10px 10px 10px 30px;
-    /* Using shuttlecock icon for bulleted list */
-    list-style-image: url('../images/shuttlecock-icon.png');
-    text-align: center;
 }
 
 /* Timetable styles */
@@ -182,12 +181,8 @@ nav {
 
 /* Sign-up form styles */
 
-#signup {
-    background-color: #435426;
-    color: antiquewhite;
-}
-
-#form-space, #form-head {
+#form-space,
+#form-head {
     text-align: center;
     width: 100%;
 }
@@ -200,7 +195,9 @@ nav {
     padding: 30px;
 }
 
-.submit, .clear, .field {
+.submit,
+.clear,
+.field {
     border: 2px solid antiquewhite;
     border-radius: 20px;
     color: antiquewhite;
@@ -231,17 +228,18 @@ input::placeholder {
     align-items: center;
 }
 
-#contact, #map {
+.contact,
+.map {
     flex-basis: 160px;
     flex-grow: 1;
     text-align: center;
     border: none;
     border-radius: 8px;
     padding: 10px;
-    margin: 10px 2px;
+    margin: 20px 2px;
 }
 
-#contact {
+.contact {
     background-color: antiquewhite;
 }
 
@@ -315,7 +313,7 @@ footer i {
         margin-top: 105px;
     }
 
-    #hero-text {
+    .hero-text-box {
         width: 300px;
         right: 50px;
     }
