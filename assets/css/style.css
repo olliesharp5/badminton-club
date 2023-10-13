@@ -142,10 +142,6 @@ nav {
     background-color: rgba(85, 107, 47, 0.5);
 }
 
-.hero-text-box > h2 {
-    text-transform: capitalize;
-}
-
 .hero-text-box h3 {
     margin-top: 5%;
 }
@@ -183,18 +179,14 @@ nav {
 
 /* Sign-up form styles */
 
-#form-space,
-#form-head {
+.form-space,
+.form-head {
     text-align: center;
     width: 100%;
 }
 
-#form-head {
+.form-head {
     font-size: 150%;
-}
-
-#signup-form {
-    padding: 30px;
 }
 
 .submit,
@@ -207,6 +199,7 @@ nav {
     padding: 5px;
     font-size: 130%;
     margin: 5px;
+    text-align: center;
 }
 
 /* Overrides font size above */
@@ -319,8 +312,6 @@ footer i {
         width: 300px;
         right: 50px;
     }
-
-
 }
 
 /* Media query: tablets and larger (848px and up) */
