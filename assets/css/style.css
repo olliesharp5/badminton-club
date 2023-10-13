@@ -225,6 +225,7 @@ input::placeholder {
 }
 
 /* Contact/map section styles */
+
 #contact-map-container {
     display: flex;
     flex-wrap: wrap;
