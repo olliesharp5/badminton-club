@@ -92,7 +92,7 @@ nav {
     position: relative;
     width: 100%;
     height: 500px;
-    background-image: url('../assets/images/badminton-hero-image.jpg');
+    background-image: url(../images/badminton-hero-image.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -152,7 +152,7 @@ nav {
 #offer-list {
     padding: 10px 10px 10px 30px;
     /* Using shuttlecock icon for bulleted list */
-    list-style-image: url('../assets/images/shuttlecock-icon.png');
+    list-style-image: url('../images/shuttlecock-icon.png');
 }
 
 /* Timetable styles */
@@ -161,7 +161,7 @@ nav {
     position: relative;
     width: 100%;
     height: 100%;
-    background-image: url('../assets/images/badminton-timetable.jpg');
+    background-image: url('../images/badminton-timetable.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
