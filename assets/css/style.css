@@ -217,25 +217,12 @@ input::placeholder {
 
 /* Contact/map section styles */
 
-#contact-map-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.contact,
-.map {
-    flex-basis: 160px;
-    flex-grow: 1;
+#map {
     text-align: center;
     border: none;
     border-radius: 8px;
     padding: 10px;
     margin: 10px 2px;
-}
-
-.contact {
-    background-color: antiquewhite;
 }
 
 /* Footer Styles */
