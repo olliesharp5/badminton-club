@@ -18,7 +18,7 @@ body {
     min-width: 100vw;
     display: flex;
     flex-direction: column;
-    color: darkolivegreen;
+    color: #435426;
     font-family: 'Lato', sans-serif;
 }
 
@@ -37,7 +37,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: darkolivegreen;
+    color: #435426;
 }
 
 h1 {
@@ -130,7 +130,7 @@ nav {
     background-color: antiquewhite;
     border-radius: 8px;
     padding: 10px;
-    border: 2px solid darkolivegreen;
+    border: 2px solid #435426;
     margin: 10px 2px;
     font-size: 150%;
     flex-basis: 100%;
@@ -142,7 +142,7 @@ nav {
     background-color: antiquewhite;
     border-radius: 8px;
     padding: 10px;
-    border: 2px solid darkolivegreen;
+    border: 2px solid #435426;
     margin: 10px 2px;
     padding: 10px;
     font-size: 150%;
@@ -184,7 +184,7 @@ nav {
 /* Sign-up form styles */
 
 #signup {
-    background-color: darkolivegreen;
+    background-color: #435426;
     color: antiquewhite;
 }
 
@@ -244,7 +244,7 @@ input::placeholder {
 
 #contact {
     background-color: antiquewhite;
-    border: 2px solid darkolivegreen;
+    border: 2px solid #435426;
 }
 
 /* Footer Styles */
@@ -263,7 +263,7 @@ footer ul {
 footer i {
     font-size: 160%;
     padding: 5%;
-    color: darkolivegreen;
+    color: #435426;
 }
 
 
@@ -305,7 +305,7 @@ footer i {
     }
 
     nav ul li {
-        border-left: 1px solid darkolivegreen;
+        border-left: 1px solid #435426;
         text-align: center;
     }
 
@@ -355,7 +355,7 @@ footer i {
     }
 
     nav ul li {
-        border-left: 1px solid darkolivegreen;
+        border-left: 1px solid #435426;
         text-align: center;
     }
 
@@ -384,7 +384,7 @@ footer i {
 /* Media query: laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
     #navbar a:hover {
-        border-bottom: 1px solid darkolivegreen;
+        border-bottom: 1px solid #435426;
     }
 
 }
