@@ -132,7 +132,6 @@ nav {
     padding: 10px;
     margin: 10px 2px;
     font-size: 150%;
-    flex-basis: 100%;
 }
 
 /* What we offer section */
@@ -144,7 +143,6 @@ nav {
     margin: 10px 2px;
     padding: 10px;
     font-size: 150%;
-    flex-basis: 100%;
 }
 
 #offer-list {
@@ -363,19 +361,6 @@ footer i {
     main {
         margin-top: 155px;
     }
-
-    /* About-offer section */
-
-    #about-offer {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    #about-div,
-    #offer-div {
-        flex-basis: 50%;
-    }
-
 }
 
 /* Media query: laptops and larger (992px and up) */
