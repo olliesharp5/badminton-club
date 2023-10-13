@@ -137,7 +137,7 @@ nav {
 
 /* What we offer section */
 
-#offer-div {
+#offer-div, #important-info{
     background-color: antiquewhite;
     border-radius: 8px;
     padding: 10px;
