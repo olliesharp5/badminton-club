@@ -132,6 +132,7 @@ nav {
     padding: 10px;
     margin: 10px 2px;
     font-size: 150%;
+    text-align: center;
 }
 
 /* What we offer section */
@@ -143,12 +144,14 @@ nav {
     margin: 10px 2px;
     padding: 10px;
     font-size: 150%;
+    text-align: center;
 }
 
 #offer-list {
     padding: 10px 10px 10px 30px;
     /* Using shuttlecock icon for bulleted list */
     list-style-image: url('../images/shuttlecock-icon.png');
+    text-align: center;
 }
 
 /* Timetable styles */
