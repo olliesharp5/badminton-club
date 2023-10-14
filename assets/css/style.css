@@ -24,6 +24,10 @@ body {
 
 /* General Classes*/
 
+.centered {
+
+}
+
 /* Class for white text */
 .text-white {
     color:antiquewhite
@@ -33,10 +37,14 @@ body {
     background-color: antiquewhite;
     border-radius: 8px;
     padding: 10px;
-    margin: 20px 2px;
     padding: 10px;
     font-size: 150%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    max-width: 80%;
 }
 
 /* Class for reverse colour containers */
@@ -146,11 +154,6 @@ nav {
     margin-top: 5%;
 }
 
-/* Container for about-offer */
-
-#about-offer {
-    display: block;
-}
 
 /* Timetable styles */
 
