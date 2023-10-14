@@ -24,8 +24,6 @@ body {
 
 /* General Classes*/
 
-.centered {}
-
 /* Class for white text */
 .text-white {
     color: antiquewhite
@@ -149,7 +147,6 @@ nav {
     margin-top: 5%;
 }
 
-
 /* Timetable styles */
 
 #timetable {
@@ -241,7 +238,6 @@ footer i {
     padding: 5%;
     color: #435426;
 }
-
 
 /* Media query: compensating for single line h1 (378px and up) */
 @media screen and (min-width: 378px) {
