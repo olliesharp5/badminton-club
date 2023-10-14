@@ -24,14 +24,13 @@ body {
 
 /* General Classes*/
 
-.centered {
-
-}
+.centered {}
 
 /* Class for white text */
 .text-white {
-    color:antiquewhite
+    color: antiquewhite
 }
+
 /* Class for styling containers */
 .containers {
     background-color: antiquewhite;
@@ -40,11 +39,7 @@ body {
     padding: 10px;
     font-size: 150%;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 30px auto;
-    max-width: 80%;
+    margin: 20px 2px;
 }
 
 /* Class for reverse colour containers */
@@ -345,6 +340,20 @@ footer i {
 
     main {
         margin-top: 155px;
+    }
+
+    .containers {
+        background-color: antiquewhite;
+        border-radius: 8px;
+        padding: 10px;
+        padding: 10px;
+        font-size: 150%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px auto;
+        max-width: 80%;
     }
 }
 
