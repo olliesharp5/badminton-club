@@ -25,6 +25,10 @@ body {
 
 /* General Classes*/
 
+.hidden {
+    display: none;
+}
+
 /* Class for white text */
 .text-white {
     color: antiquewhite
@@ -52,7 +56,7 @@ body {
 
 .shuttle-list {
     padding: 10px 10px 10px 30px;
-    /* Using shuttlecock icon for bulleted list */
+/* Using shuttlecock icon for bulleted list */
     list-style-image: url('../images/shuttlecock-icon.png');
     text-align: center;
 }
@@ -224,7 +228,7 @@ input::placeholder {
 
 /* Footer Styles */
 footer {
-    background-color: bisque;
+    background-color: antiquewhite;
 }
 
 footer ul {
@@ -339,7 +343,7 @@ footer i {
     main {
         margin-top: 155px;
     }
-
+        /* centers the containers for larger screens */
     .containers {
         background-color: antiquewhite;
         border-radius: 8px;
@@ -356,7 +360,7 @@ footer i {
 
     .shuttle-list {
         padding: 10px 10px 10px 30px;
-        /* Using shuttlecock icon for bulleted list */
+        /* removes shuttlecock icon for bulleted list */
         list-style-image: none;
         list-style-type: none;
         text-align: center;
