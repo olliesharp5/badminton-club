@@ -19,6 +19,10 @@ Shuttle Strikers is a badminton club based in Manchester. The Shuttle Strikers w
     - [Features Left to Implement](#features-left-to-implement)
   - [Testing](#testing)
     - [Validator Testing](#validator-testing)
+      - [HTML](#html)
+      - [CSS](#css)
+      - [WebAim Contrast checker](#webaim-contrast-checker)
+      - [Unfixed Bugs](#unfixed-bugs)
   - [Deployment](#deployment)
   - [Credits](#credits)
     - [Content](#content)
@@ -75,6 +79,7 @@ The wireframe is designed using Balsamiq software. The first draft was edited wi
 I have selected antique white (#faebd7) and a dark green (#435426) color palette. But I also used a background image with badminton themes in 2 sections of the site. The color palette was chosen because i wanted it to represent the sophisticated and clinical nature of the sport of badminton as well as directly reflecting the colors seen on a badminton court. 
 
 ## Technologies
+
 1. HTML - To create a basic site
 2. CSS - To create a nice, standout front-end and to give a great user experience
 3. Balsamiq - To create a wireframe
@@ -82,60 +87,74 @@ I have selected antique white (#faebd7) and a dark green (#435426) color palette
 ## Features
 
 ### Existing Features
+
 * Navigation Bar
+  
 The navigation bar is an essential feature that provides easy and intuitive access to different sections of the website. For the users, it helps them easily navigate through the website and find the information they are looking for without any confusion. The navigation bar in this project has links to home, timetable, sign-up and contact. It will ensure that users can quickly find the specific information they want about the badminton club, making their browsing experience efficient and user-friendly. The navigation bar will also transform into a dropdown menu once the screen size reaches below 804 pixels wide. This has been done to conserve real estate on the page and henhance the viewing experience. 
 
 ![navigation_bar smaller screens](./assets/readme-assets/navigation-short.png)
+
 ![navigation_bar smaller screens expanded](./assets/readme-assets/navigation-expanded.png)
+
 ![navigation_bar larger screens](./assets/readme-assets/navigation-long.png)
 
-* The landing page image
+* The Landing Page Image
+  
 The landing page image serves as the focal point of the website and immediately grabs the attention of the users. It provides a visual representation of the badminton club, showing the main focal point of the sport. The image helps the users gauge whether the club aligns with their interests and preferences. By showcasing the club's ambiance, it allows potential members to visualize themselves being a part of the club and promotes a desire to explore further.
 
 ![hero_image_section](./assets/readme-assets/hero_image.png)
 
 * Club Ethos Section
+  
 The club ethos section is where the badminton club communicates its values, principles, and the overall atmosphere it creates for its members. This section is crucial for users who are interested in joining the club as it gives them insight into the club's culture and what they can expect. By highlighting the club's ethos, such as promoting sportsmanship, teamwork, and personal growth, the users can determine whether the club's values align with their own. This helps them make an informed decision about joining the club and ensures that the club attracts members who resonate with their values.
 
 ![about_us_section](./assets/readme-assets/about_us.png)
 
 * Club Offerings Section
+
 This section provides users with information regarding what the club can offer its members. This section isn't specific to any part of the club, it provide more of a general overview to attract prospective members. 
 
 ![offerings_section](./assets/readme-assets/offerings.png)
 
 * Meetup Times section
+  
 This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
 This section will be updated as these times change to keep the user up to date.
 
 ![timetable_section](./assets/readme-assets/timetable.png)
 
 * Training Session Details
+  
 This section provides users with specific details regatrding the traininbg sessions. This includes what to wear, what to bring with them and how long the sessions run for. This information was necessary to implement into the site as only general information had been provided prior. The location of this section is also important as it is nested between the timetable and the registration form. 
 
 ![training_details_section](./assets/readme-assets/training_details.png)
 
 * The Sign Up section
+  
 The sign up page is critical for individuals who want to join the badminton club. It provides a streamlined and organized way for users to express their interest in becoming a member. By having a dedicated sign up page, users can input their personal information, specify their preferences or level of play, and indicate their availability. This helps the club in managing their membership database effectively and allows them to cater to the needs and interests of different individuals. The sign-up page is convenient for users, as they don't have to contact or communicate with the club separately, and it streamlines the membership process, facilitating a smooth onboarding experience.
 
 ![sign-up_section](./assets/readme-assets/registration-form.png)
 
 * The Contact and Map section
+  
 The contact and map section contains the address of the club as well as the telephone number and email address. This is paired with a visual represenattion of the clubs location in the form of a google map import. This section shpould contain all the information the user would need to contact the club and locate them. 
 
 ![contact/map_section](./assets/readme-assets/contact_map.png)
 
 * The Footer
+  
 The footer is a consistent feature that appears at the bottom of every webpage. It provides valuable information and links that users may need to access regardless of which page they are on. In this project, the footer can include important details such as contact information, social media links, privacy policy, and terms of service. The footer ensures that users can easily find essential information without navigating back to the main menu or searching through the entire website. It increases usability, saves users time, and improves their overall experience.
 
 ![footer_section](./assets/readme-assets/footer.png)
 
 ### Features Left to Implement
+
 In the future I would like to add, 
 * Another section which showcases the instructors. This could include a short bio written by each of them and photo. This increases personability of the club hopefully encouraging prospective members to register.
 * A separate page where individual existing club members could reserve badminton courts outside the normal club hours. This page would include a calendar style booking platform. Additionally there would be a section displaying the rental fees per hour and any terms of conduct. This section would provide existing members with extra flexibility to practice badmintion which would hopefully be attractive to prospective members due to busy schedules.
 
 ## Testing
+
 * I tested the site, and it works in different web browsers: Chrome, Firefox, and Microsoft Edge.
 * On mobile devices, I tested the my site on a Samsung Galaxy S23 Ultra with the Samsung browser and an iPhone SE with the Safari browser.
 * I confirmed that the site is responsive and functions on different screen sizes using the devtools device toolbar.
@@ -143,26 +162,29 @@ In the future I would like to add,
 * I confirmed that the form works: it requires entries in every field, only accepts an email in the email field, and both the submit and reset buttons work.
 
 ### Validator Testing
-HTML
+
+#### HTML
 One error was returned when passing through the official W3C validator. 
 - "Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead". 
 
 ![html_validator](./assets/readme-assets/html_validator.png)
 
-CSS
+#### CSS
 No errors were found when passing through the official (Jigsaw) validator.
 
 ![css_validator](./assets/readme-assets/css_validator.png)
 
-WebAim Contrast checker 
+#### WebAim Contrast checker 
 No errors were found when passing through the contrast validator.
 
 ![contrast_validator](./assets/readme-assets/contrast_validator.png)
 
-Unfixed Bugs
-The view from the Samsung Galaxy Fold creates a margin down the right hand side of the page which means some text spills over their containers. 
+#### Unfixed Bugs
+
+* The view from the Samsung Galaxy Fold creates a margin down the right hand side of the page which means some text spills over their containers. 
 
 ## Deployment
+
 * The site was deployed to Git Hub pages using the following steps:
   - In the Github repository, the Stetting tab.
   - Under General, navigate to Code and Automation and select 'Pages'.
@@ -175,15 +197,17 @@ The view from the Samsung Galaxy Fold creates a margin down the right hand side 
 ## Credits
 
 ### Content
-The text for the About Us and What Can We Offer section was generated using the OpenAI tool ChatGPT.
-Instructions on how to target the placeholder in the form was taken from https://www.w3schools.com/cssref/sel_placeholder.php#:~:text=The%20%3A%3Aplaceholder%20selector%20selects,value%20of%20an%20input%20field.
-Instructions on how to implement the navigation bar dropdown toggle was taken from the Love Running tutorial during my Code Institute course.
-The idea for the style of the timetable was inspired by the Love Running project during the code institute curriculum. 
-The responsiveness of the text over the hero image was inspired from the love running project during the code insitue curriculum.
-The idea to implement scroll-padding was provided by my mentor. 
+
+* The text for the About Us and What Can We Offer section was generated using the OpenAI tool ChatGPT.
+* Instructions on how to target the placeholder in the form was taken from https://www.w3schools.com/cssref/sel_placeholder.php#:~:text=The%20%3A%3Aplaceholder%20selector%20selects,value%20of%20an%20input%20field.
+* Instructions on how to implement the navigation bar dropdown toggle was taken from the Love Running tutorial during my Code Institute course.
+* The idea for the style of the timetable was inspired by the Love Running project during the code institute curriculum. 
+* The responsiveness of the text over the hero image was inspired from the love running project during the code insitue curriculum.
+* The idea to implement scroll-padding was provided by my mentor. 
 
 ### Media
-The icon used for the favicon is from favicon.io
-The photos used on the landing page are from pexels.com
-The images used for the shuttlecock icons are from flaticon.com
-The icons in the footer were taken from Font Awesome
+
+* The icon used for the favicon is from favicon.io
+* The photos used on the landing page are from pexels.com
+* The images used for the shuttlecock icons are from flaticon.com
+* The icons in the footer were taken from Font Awesome
