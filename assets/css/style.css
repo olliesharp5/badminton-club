@@ -20,6 +20,7 @@ body {
     flex-direction: column;
     color: #435426;
     font-family: 'Lato', sans-serif;
+    scroll-padding-top: 80px;
 }
 
 /* General Classes*/
@@ -67,6 +68,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    scroll-padding: 20px 20px;
 }
 
 header a {
