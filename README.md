@@ -68,11 +68,23 @@ The landing page image serves as the focal point of the website and immediately 
 * Club Ethos Section
 The club ethos section is where the badminton club communicates its values, principles, and the overall atmosphere it creates for its members. This section is crucial for users who are interested in joining the club as it gives them insight into the club's culture and what they can expect. By highlighting the club's ethos, such as promoting sportsmanship, teamwork, and personal growth, the users can determine whether the club's values align with their own. This helps them make an informed decision about joining the club and ensures that the club attracts members who resonate with their values.
 
-[about_us_section](/assets/readme-assets/about_us.png)
+![about_us_section](/assets/readme-assets/about_us.png)
+
+* Club Offerings Section
+This section provides users with information regarding what the club can offer its members. This section isn't specific to any part of the club, it provide more of a general overview to attract prospective members. 
+
+![offerings_section](/assets/readme-assets/offerings.png)
 
 * Meetup Times section
 This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
 This section will be updated as these times change to keep the user up to date.
+
+![timetable_section](/assets/readme-assets/timetable.png)
+
+* Training Session Details
+This section provides users with specific details regatrding the traininbg sessions. This includes what to wear, what to bring with them and how long the sessions run for. This information was necessary to implement into the site as only general information had been provided prior. The location of this section is also important as it is nested between the timetable and the registration form. 
+
+![training_details_section](/assets/readme-assets/training_details.png)
 
 * The Sign Up section
 The sign up page is critical for individuals who want to join the badminton club. It provides a streamlined and organized way for users to express their interest in becoming a member. By having a dedicated sign up page, users can input their personal information, specify their preferences or level of play, and indicate their availability. This helps the club in managing their membership database effectively and allows them to cater to the needs and interests of different individuals. The sign-up page is convenient for users, as they don't have to contact or communicate with the club separately, and it streamlines the membership process, facilitating a smooth onboarding experience.
