@@ -353,6 +353,14 @@ footer i {
         margin: 30px auto;
         max-width: 80%;
     }
+
+    .shuttle-list {
+        padding: 10px 10px 10px 30px;
+        /* Using shuttlecock icon for bulleted list */
+        list-style-image: none;
+        list-style-type: none;
+        text-align: center;
+    }
 }
 
 /* Media query: laptops and larger (992px and up) */
