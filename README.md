@@ -22,6 +22,7 @@ Shuttle Strikers is a badminton club based in Manchester. The Shuttle Strikers w
       - [HTML](#html)
       - [CSS](#css)
       - [WebAim Contrast checker](#webaim-contrast-checker)
+      - [Fixed Bugs](#fixed-bugs)
       - [Unfixed Bugs](#unfixed-bugs)
   - [Deployment](#deployment)
   - [Credits](#credits)
@@ -178,6 +179,13 @@ No errors were found when passing through the official (Jigsaw) validator.
 No errors were found when passing through the contrast validator.
 
 ![contrast_validator](./assets/readme-assets/contrast_validator.png)
+
+
+#### Fixed Bugs
+
+* The header element was dissapearing when the page was scrolled - this was resolved with assistance of my mentor who advised to use scroll-padding to the body element.  
+* Some navigation elements were hidden from view widths of 804px -  998px - this issue was rellved by amending the media queries to compensate for the additioanl navbar elements.
+* Hero image and background image wasnt displaying on my deployed site - this was resolved by amending the file paths. 
 
 #### Unfixed Bugs
 
