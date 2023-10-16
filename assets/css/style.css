@@ -216,14 +216,16 @@ input::placeholder {
     color: antiquewhite;
 }
 
-/* Contact/map section styles */
+/* iFrame styles */
 
-#map {
+.custom-iframe {
     text-align: center;
     border: none;
     border-radius: 8px;
     padding: 10px;
     margin: 10px 2px;
+    width: 100%;
+    height: 300px;
 }
 
 /* Footer Styles */

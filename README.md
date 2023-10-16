@@ -165,8 +165,7 @@ In the future I would like to add,
 ### Validator Testing
 
 #### HTML
-One error was returned when passing through the official W3C validator. 
-- "Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead". 
+No errors were found when passing through the official W3C validator.
 
 ![html_validator](./assets/readme-assets/html_validator.png)
 
