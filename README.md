@@ -185,6 +185,7 @@ No errors were found when passing through the contrast validator.
 * The header element was dissapearing when the page was scrolled - this was resolved with assistance of my mentor who advised to use scroll-padding to the body element.  
 * Some navigation elements were hidden from view widths of 804px -  998px - this issue was rellved by amending the media queries to compensate for the additioanl navbar elements.
 * Hero image and background image wasnt displaying on my deployed site - this was resolved by amending the file paths. 
+* An error was appearing with the iframe when running through the HTML validator. The solution was to create a class and style the iframe in css instead. 
 
 #### Unfixed Bugs
 
