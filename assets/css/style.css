@@ -201,6 +201,7 @@ nav {
     font-size: 130%;
     margin: 5px;
     text-align: center;
+    cursor: pointer;
 }
 
 /* Overrides font size above */
