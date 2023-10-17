@@ -7,6 +7,10 @@
     margin: 0px;
     box-sizing: border-box;
 }
+/* Ensures the section is in view when slicked in the nav */
+html {
+    scroll-padding-top: 88px;
+}
 
 main {
     flex: 1 0 auto;
@@ -18,7 +22,6 @@ body {
     flex-direction: column;
     color: #435426;
     font-family: 'Lato', sans-serif;
-    scroll-padding-top: 80px;
 }
 
 /* General Classes*/
@@ -248,6 +251,10 @@ footer i {
 
 /* Media query: compensating for single line h1 (378px and up) */
 @media screen and (min-width: 378px) {
+    html {
+        scroll-padding-top: 50px;
+    }
+    
     main {
         margin-top: 44px;
     }
@@ -255,9 +262,11 @@ footer i {
 
 /* Media query: smaller tablets and larger (804px and up) */
 @media screen and (min-width: 804px) {
+    html {
+        scroll-padding-top: 64px;
+    }
 
     /* Header */
-    
     .title {
         font-size: 260%;
         line-height: 50px;
@@ -276,6 +285,9 @@ footer i {
 
 /* Media query: tablets and larger (986px and up) */
 @media screen and (min-width: 986px) {
+html {
+        scroll-padding-top: 162px;
+    }
 
     /* Header */
     nav {
