@@ -14,8 +14,6 @@ main {
 }
 
 body {
-    min-height: 100vh;
-    min-width: 100vw;
     display: flex;
     flex-direction: column;
     color: #435426;
@@ -301,7 +299,7 @@ footer i {
     }
 
     .title {
-        font-size: 300%;
+        font-size: 260%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
