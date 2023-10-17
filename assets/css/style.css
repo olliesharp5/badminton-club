@@ -259,14 +259,14 @@ footer i {
 
     /* Header */
     
-    #title {
+    .title {
         font-size: 260%;
         line-height: 50px;
         margin: 0 0.5rem;
     }
 
     main {
-        margin-top: 105px;
+        margin-top: 44px;
     }
 
     .hero-text-box {
@@ -299,7 +299,7 @@ footer i {
         display: none;
     }
 
-    #title {
+    .title {
         font-size: 300%;
         line-height: 75px;
         margin: 0 0.5rem;
